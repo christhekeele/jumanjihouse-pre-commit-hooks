@@ -446,7 +446,7 @@ Override locally with the `args` parameter in `.pre-commit-config.yaml`.
 
 **What it does**
 
-Run `shfmt -w` against scripts with args.
+Run `shfmt` against scripts with args. Pass `-w` in `args` to use as a formatter, or `-d` to use as a linter.
 
 **More info**
 
